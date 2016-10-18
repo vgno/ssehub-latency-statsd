@@ -6,7 +6,7 @@ const rabbitmq = require('./rabbitmq');
 const EventSource = require('./EventSource');
 const logger = require('./logger');
 
-var statsdClient = new Statsd({
+const statsdClient = new Statsd({
     host: config.statsd.host,
     port: config.statsd.port,
     prefix: config.statsd.prefix

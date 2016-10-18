@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node src/index"
+  },
   "dependencies": {
     "amqplib": "^0.4.2",
     "bunyan": "^1.8.1",
     "co": "^4.6.0",
     "config": "^1.21.0",
-    "node-statsd": "^0.1.1"
+    "node-statsd": "^0.1.1",
+    "original": "^1.0.0"
   }
 }
