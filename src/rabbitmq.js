@@ -2,7 +2,7 @@ var config = require('config');
 var amqplib = require('amqplib');
 var logger = require('./logger');
 
-module.exports = onMessage => {
+module.exports = function(onMessage) {
     if (!config.amqp) {
         return Promise.resolve();
     }
