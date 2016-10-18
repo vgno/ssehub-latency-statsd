@@ -1,0 +1,19 @@
+{
+    "ssehub": {
+        "url": "SSEHUB_URL"
+    },
+    "amqp": {
+        "url": "AMQP_EXCHANGE_URL",
+        "exchange": {
+            "name": "AMQP_EXCHANGE_NAME"
+        },
+        "queue": {
+            "name": "AMQP_QUEUE_NAME"
+        }
+    },
+    "statsd": {
+        "host": "STATSD_HOST",
+        "port": "STATSD_PORT",
+        "prefix": "STATSD_PREFIX"
+    }
+}

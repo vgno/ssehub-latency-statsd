@@ -1,0 +1,24 @@
+{
+    "ssehub": {
+        "url": ""
+    },
+    "amqp": {
+        "url": "",
+        "exchange": {
+            "name": "fanout",
+            "type": "fanout",
+            "options": {}
+        },
+        "queue": {
+            "name": "ssehub-latency",
+            "options": {
+                "autoDelete": true
+            }
+        }
+    },
+    "statsd": {
+        "host": "localhost",
+        "port": 8125,
+        "prefix": "ssehub-latency"
+    }
+}
