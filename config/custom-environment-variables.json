@@ -3,7 +3,7 @@
         "url": "SSEHUB_URL"
     },
     "amqp": {
-        "url": "AMQP_EXCHANGE_URL",
+        "url": "AMQP_URL",
         "exchange": {
             "name": "AMQP_EXCHANGE_NAME"
         },
